@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Rob Pevny's Portfolio</title>
+        <style>
+        .box {
+            display: grid;
+            align-items: center; 
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 2px;
+         }
+        
+        </style>
+        
+    </head>
+    <body style="background-color: burlywood;">
+        <h1 style="color: white; background-color: rgb(119, 57, 200)"> Robert Pevny's Portfolio</h1>
+        <h2>Date of Birth: 
+            <br />
+            <h3 style="font-family: sans-serif; font-weight: lighter;"> May 5th, 1989 </h3>
+        </h2>
+
+        <h2> Education: 
+            <h3 style="font-family: sans-serif; font-weight: lighter;">
+            High School Diploma
+             <br />
+             <br />
+            Courses I attended in recent years: 
+            <ol style="color: yellow; background-color: brown; font-family: Arial, Helvetica, sans-serif;">
+                <li>Web Development Bootcamp</li>  
+                <li>PMBIA level 2 - TECH course prep</li>
+                <li>Cansi XC ski instructor level II</li>
+                <li>Cansi XC ski instructor level I</li>
+                <li>First AID & CPR</li>
+                <li>PMBIA level 2 - AIR MTB instructor</li>
+            </ol>
+            </h3>
+        </h2>
+        <h2>Project's I worked on before:</h2>
+            
+            <div style="color: darkmagenta;"> 
+                <div class="box">
+                
+                    <a href="https://www.facebook.com/jobofferforcanada/">
+                     <img 
+                        id="The Real Working Holiday"
+                        src="trwh.jpg"
+                        width="150"
+                        height="150"
+                    />
+                    </a>
+                    <h3> Work agency I started during Covid-19 to help finding jobs for young visitors coming to Canada on Working Holiday visa.</h3> 
+                </div>
+            
+            
+            </div> 
+            <br />
+            <div class="box"></div>
+            <div style="color: darkmagenta; font-weight: bold;">  Local mtb trail building volunteer sessions</div> 
+            <br />
+            <a href="https://camba.ca/projects/">
+            <img 
+                id="Camba"
+                src="https://camba.ca/static/a5e72a2cb814b47ace8570ad72af6a49/c85ea/bike-box.jpg"
+                width="200" 
+                height="200"
+            /></a>
+        <h2>Languages I speak:</h2>
+            <ul>
+                <li>English</li>
+                <li>Czech</li>
+                <li>German</li>
+            </ul>
+        <h2>Activities:</h2>
+                
+                    <ul>
+                        <li>sport - mtb biking, hiking, backcountry skiing</li>
+                        <li>reading books</li>
+                        <li>coffee</li> 
+                    </ul>
+            
+        <br>
+
+        <h2>Message me:</h2>
+        
+        <form action="/process_form.php">
+            <label for="Name">What is your name?</label>
+            <br />
+            <input id="name" type="text" />
+            <br />
+            <br />
+
+            <label for="Age">What is your Age?</label>
+            <br />
+            <input id="Age" type="number" />
+            <br />
+            <br />
+
+            <label for="Request">What kind of requests you have?</label>
+            <br />
+            <input id="Request" type="text" />
+            <br />
+            <br />
+            
+            <label for="Email">What is your email address?</label>
+            <br />
+            <input id="Email" type="text" />
+            <br />
+            <br />
+
+            <input type="submit" value="Submit" />
+        </form>
+    </body>
+</html>
